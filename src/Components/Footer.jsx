@@ -1,20 +1,31 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import React from "react";
+import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: FaLinkedin, href: "https://www.linkedin.com/in/abdulqadir004/", label: "LinkedIn" },
-    { icon: FaGithub, href: "https://github.com/abdulqadir-004", label: "GitHub" },
-    { icon: FaInstagram, href: "https://www.instagram.com/encrypted.aq/", label: "Instagram" },
-    { icon: FaFacebook, href: "https://www.facebook.com/aq.jakhro?mibextid=ZbWKwL", label: "Facebook" },
+    {
+      icon: FaLinkedin,
+      href: "www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317",
+      label: "LinkedIn",
+    },
+    {
+      icon: FaGithub,
+      href: "https://github.com/ShafeeJakhrohttps://github.com/ShafeeJakhro",
+      label: "GitHub",
+    },
+    {
+      icon: FaInstagram,
+      href: "https://www.instagram.com/im.shafee/",
+      label: "Instagram",
+    },
   ];
 
   return (
     <motion.footer
       initial={{ y: 100 }}
       animate={{ y: 0 }}
-      transition={{ type: 'spring', stiffness: 120, damping: 20 }}
+      transition={{ type: "spring", stiffness: 120, damping: 20 }}
       className="bg-white dark:bg-gray-900 bg-opacity-90 dark:bg-opacity-90 backdrop-blur-md shadow-lg"
     >
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
@@ -44,7 +55,10 @@ const Footer = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <p>&copy; {new Date().getFullYear()} Abdul Qadir Jakhro. All rights reserved <span className="text-red-500">&hearts;</span></p>
+            <p>
+              &copy; {new Date().getFullYear()} Shafiq ur Rehman. All rights
+              reserved <span className="text-red-500">&hearts;</span>
+            </p>
             {/* <p className="mt-2">
               Built with <span className="text-red-500">&hearts;</span> using React
             </p> */}
@@ -56,4 +70,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
