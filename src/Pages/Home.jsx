@@ -27,7 +27,7 @@ const Home = () => {
         className="w-64 h-64 rounded-full overflow-hidden shadow-2xl mb-12 ring-4 ring-purple-500 ring-opacity-50 z-10"
       >
         <img
-          src="https://drive.google.com/file/d/152OmpfjDzC1iraf1GL5zVDICzvi32UzK/view?usp=drive_link"
+          src="https://github.com/ShafeeJakhro"
           alt="Shafiq ur Rehman"
           className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
         />
