@@ -22,19 +22,19 @@ const About = () => {
       title: "Software Engineer",
       issuer: "HackerRank",
       image:
-        "https://drive.google.com/file/d/1_xyxoGJUtafgxWblXO_rAyC7jwaEHunG/view",
+        "https://github.com/ShafeeJakhro/portfolio.me/blob/main/imgs/software_engineer%20certificate_page-0001.jpg?raw=true",
     },
     {
       title: "Java",
       issuer: "HackerRank",
       image:
-        "https://drive.google.com/file/d/1cTul9cdHCjyfFEB_QD1o743vSWfGW0lJ/view",
+        "https://github.com/ShafeeJakhro/portfolio.me/blob/main/imgs/java_basic%20certificate_page-0001.jpg?raw=true",
     },
     {
       title: "Problem Solving",
       issuer: "HackerRank",
       image:
-        "https://drive.google.com/file/d/1cTul9cdHCjyfFEB_QD1o743vSWfGW0lJ/view",
+        "https://github.com/ShafeeJakhro/portfolio.me/blob/main/imgs/problem_solving_basic%20certificate_page-0001.jpg?raw=true",
     },
     // {
     //   title: "Networking Fundamentals",
