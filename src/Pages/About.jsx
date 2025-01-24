@@ -316,7 +316,7 @@ const About = () => {
                 <FaDownload className="mr-2" /> Resume 📄
               </motion.a>
               <motion.a
-                href="www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317"
+                href="https://www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-blue-600 text-white py-3 px-6 rounded-full shadow-lg flex items-center justify-center"
