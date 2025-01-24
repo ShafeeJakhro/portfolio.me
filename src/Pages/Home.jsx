@@ -76,7 +76,7 @@ const Home = () => {
         {[
           {
             icon: FaLinkedin,
-            href: "www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317",
+            href: "https://www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317",
             color: "text-blue-400",
           },
           {
