@@ -47,6 +47,46 @@ const Projects = () => {
         "https://drive.google.com/file/d/1oH3yl81tJEdRHL9LmRVIU0WKrZ_lu7hB/view?usp=drive_link", //
       link: "https://medium.com/@shafeeejakhro1090/simplifying-local-governance-with-a-java-based-union-council-management-system-b79eb3e0804e", // Replace with your project's GitHub or live link
     },
+    {
+      title: "University Operations with a MySQL-Based Management System",
+      description: (
+        <ul>
+          <li>
+            <p>
+              <strong>Management Challenges: </strong>
+              Tackling inefficiencies in university operations.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>MySQL Backbone: </strong>
+              Ensuring secure, scalable data management.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Automation: </strong>
+              Simplifying enrollment, scheduling, and more.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Collaboration: </strong>
+              Enhancing communication across the academic community.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Technology: </strong>
+              Built with Java and a scalable database.
+            </p>
+          </li>
+        </ul>
+      ),
+      imageUrl:
+        "https://drive.google.com/file/d/1vTWO70O0CuVHmm6UlmHH1qZV3YP5aDBU/view?usp=drive_link", //
+      link: "https://medium.com/@shafeeejakhro1090/university-operations-with-a-mysql-based-management-system-4b908cd15285", // Replace with your project's GitHub or live link
+    },
   ];
 
   const [showMore, setShowMore] = useState(false);
