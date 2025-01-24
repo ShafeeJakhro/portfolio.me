@@ -69,7 +69,7 @@ const Contact = () => {
           className="flex justify-center"
         >
           <motion.a
-            href="www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317"
+            href="https://www.linkedin.com/in/shafiq-ur-rehman-jakhro-b62202317"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-8 rounded-full shadow-lg flex items-center text-lg font-semibold"
