@@ -307,7 +307,7 @@ const About = () => {
             </h2>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <motion.a
-                href="https://drive.google.com/file/d/1FqQzGy0TvJ9UKSrCumEuD-jxFyfZN5wB/view?usp=drive_link"
+                href="https://drive.google.com/file/d/15tQVBUNEZFFzWUZ5NkZrk5kMI1Mfc-mD/view?usp=drive_link"
                 className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-6 rounded-full shadow-lg flex items-center justify-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
