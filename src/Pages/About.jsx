@@ -40,7 +40,7 @@ const About = () => {
       title: "Responsive Web Design",
       issuer: "freeCodeCamp",
       image:
-        "https://www.freecodecamp.org/certification/shafee_jakhro/responsive-web-design",
+        "https://github.com/ShafeeJakhro/portfolio.me/blob/main/imgs/responsive-web-design.png",
     },
     // {
     //   title: "Java Certification",
