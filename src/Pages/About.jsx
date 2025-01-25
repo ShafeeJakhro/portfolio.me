@@ -36,12 +36,12 @@ const About = () => {
       image:
         "https://github.com/ShafeeJakhro/portfolio.me/blob/main/imgs/problem_solving_basic%20certificate_page-0001.jpg?raw=true",
     },
-    // {
-    //   title: "Networking Fundamentals",
-    //   issuer: "Cybrary",
-    //   image:
-    //     "https://github.com/abdul-qadir0/pictures/blob/main/network.png?raw=true",
-    // },
+    {
+      title: "Responsive Web Design",
+      issuer: "freeCodeCamp",
+      image:
+        "https://drive.google.com/file/d/15wO7VYucP6MROdrGzsU1V5JL2v8QMT9l/view?usp=drive_link",
+    },
     // {
     //   title: "Java Certification",
     //   issuer: "Udemy",
