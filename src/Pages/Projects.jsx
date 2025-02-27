@@ -43,7 +43,7 @@ const Projects = () => {
         </ul>
       ),
       imageUrl:
-        "https://drive.google.com/file/d/1oH3yl81tJEdRHL9LmRVIU0WKrZ_lu7hB/view?usp=drive_link", // Replace with your project's GitHub or live link
+        "https://drive.google.com/file/d/1oH3yl81tJEdRHL9LmRVIU0WKrZ_lu7hB/view?usp=sharing", // Replace with your project's GitHub or live link
     },
     {
       title: "University Operations with a MySQL-Based Management System",
@@ -82,7 +82,7 @@ const Projects = () => {
         </ul>
       ),
       imageUrl:
-        "https://drive.google.com/file/d/1vTWO70O0CuVHmm6UlmHH1qZV3YP5aDBU/view?usp=drive_link", // Replace with your project's GitHub or live link
+        "https://drive.google.com/file/d/1vTWO70O0CuVHmm6UlmHH1qZV3YP5aDBU/view?usp=sharing", // Replace with your project's GitHub or live link
     },
   ];
 
