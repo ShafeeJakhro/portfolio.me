@@ -1,90 +1,86 @@
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-const Projects = () => {
-  const projectData = [
-    {
-      title:
-        "Simplifying Local Governance with a Java-Based Union Council Management System",
-      description: (
-        <ul>
-          <li>
-            <p>
-              <strong>Certificate Management:</strong>
-              Manage birth, marriage, death, and residence certificates
-              effortlessly.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Employee Management: </strong>
-              Maintain employee records and roles efficiently.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Area Services: </strong>
-              Oversee tasks like garbage collection and street lighting
-              centrally.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Search & Reporting: </strong>
-              Access data and generate reports quickly.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Technology: </strong>
-              Built with Java and a scalable database.
-            </p>
-          </li>
-        </ul>
-      ),
-      imageUrl:
-        "https://drive.google.com/file/d/1oH3yl81tJEdRHL9LmRVIU0WKrZ_lu7hB/view?usp=sharing", // Replace with your project's GitHub or live link
-    },
-    {
-      title: "University Operations with a MySQL-Based Management System",
-      description: (
-        <ul>
-          <li>
-            <p>
-              <strong>Management Challenges: </strong>
-              Tackling inefficiencies in university operations.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>MySQL Backbone: </strong>
-              Ensuring secure, scalable data management.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Automation: </strong>
-              Simplifying enrollment, scheduling, and more.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Collaboration: </strong>
-              Enhancing communication across the academic community.
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Technology: </strong>
-              Built with Java and a scalable database.
-            </p>
-          </li>
-        </ul>
-      ),
-      imageUrl:
-        "https://drive.google.com/file/d/1vTWO70O0CuVHmm6UlmHH1qZV3YP5aDBU/view?usp=sharing", // Replace with your project's GitHub or live link
-    },
-  ];
+const projectData = [
+  {
+    title:
+      "Simplifying Local Governance with a Java-Based Union Council Management System",
+    description: (
+      <ul>
+        <li>
+          <p>
+            <strong>Certificate Management:</strong>
+            Manage birth, marriage, death, and residence certificates
+            effortlessly.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Employee Management: </strong>
+            Maintain employee records and roles efficiently.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Area Services: </strong>
+            Oversee tasks like garbage collection and street lighting
+            centrally.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Search & Reporting: </strong>
+            Access data and generate reports quickly.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Technology: </strong>
+            Built with Java and a scalable database.
+          </p>
+        </li>
+      </ul>
+    ),
+    imageUrl:
+      "https://drive.google.com/file/d/1oH3yl81tJEdRHL9LmRVIU0WKrZ_lu7hB/view?usp=drive_link", // Updated link
+  },
+  {
+    title: "University Operations with a MySQL-Based Management System",
+    description: (
+      <ul>
+        <li>
+          <p>
+            <strong>Management Challenges: </strong>
+            Tackling inefficiencies in university operations.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>MySQL Backbone: </strong>
+            Ensuring secure, scalable data management.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Automation: </strong>
+            Simplifying enrollment, scheduling, and more.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Collaboration: </strong>
+            Enhancing communication across the academic community.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Technology: </strong>
+            Built with Java and a scalable database.
+          </p>
+        </li>
+      </ul>
+    ),
+    imageUrl:
+      "https://drive.google.com/file/d/1vTWO70O0CuVHmm6UlmHH1qZV3YP5aDBU/view?usp=drive_link", // Updated link
+  },
+];
 
   const [showMore, setShowMore] = useState(false);
 
@@ -148,7 +144,8 @@ const Projects = () => {
                     }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    Read More 📖
+                    <a href="https://medium.com/@shafeeejakhro1090/university-operations-with-a-mysql-based-management-system-4b908cd15285" class="nav-link">Read More 📖</a>
+                    
                   </motion.a>
                 </div>
               </div>
