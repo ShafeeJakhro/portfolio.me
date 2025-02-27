@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: FaLinkedin,
-      href: "www.linkedin.com/in/shafiq-ur-rehman-b62202317",
+      href: "https://www.linkedin.com/in/shafiq-ur-rehman-b62202317/",
       label: "LinkedIn",
     },
     {
